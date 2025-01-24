@@ -39,4 +39,5 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Ignorar bash para atualizar data do README
 atualizar_data.sh
