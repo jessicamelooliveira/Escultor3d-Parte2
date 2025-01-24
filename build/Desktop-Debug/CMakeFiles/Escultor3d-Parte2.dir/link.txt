@@ -1,0 +1,1 @@
+/usr/bin/clang++-18 -g "CMakeFiles/Escultor3d-Parte2.dir/main.cpp.o" -o Escultor3d-Parte2 
