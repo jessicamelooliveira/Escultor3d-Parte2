@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/FiguraGeometrica.cpp" "CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o" "gcc" "CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o.d"
+  "/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/PutVoxel.cpp" "CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o" "gcc" "CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o.d"
+  "/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/Sculptor.cpp" "CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o" "gcc" "CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o.d"
   "/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/main.cpp" "CMakeFiles/Escultor3d-Parte2.dir/main.cpp.o" "gcc" "CMakeFiles/Escultor3d-Parte2.dir/main.cpp.o.d"
   )
 

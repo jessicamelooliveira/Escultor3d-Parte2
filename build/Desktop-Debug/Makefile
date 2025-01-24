@@ -174,6 +174,78 @@ Escultor3d-Parte2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/build
 .PHONY : Escultor3d-Parte2/fast
 
+FiguraGeometrica.o: FiguraGeometrica.cpp.o
+.PHONY : FiguraGeometrica.o
+
+# target to build an object file
+FiguraGeometrica.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o
+.PHONY : FiguraGeometrica.cpp.o
+
+FiguraGeometrica.i: FiguraGeometrica.cpp.i
+.PHONY : FiguraGeometrica.i
+
+# target to preprocess a source file
+FiguraGeometrica.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.i
+.PHONY : FiguraGeometrica.cpp.i
+
+FiguraGeometrica.s: FiguraGeometrica.cpp.s
+.PHONY : FiguraGeometrica.s
+
+# target to generate assembly for a file
+FiguraGeometrica.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.s
+.PHONY : FiguraGeometrica.cpp.s
+
+PutVoxel.o: PutVoxel.cpp.o
+.PHONY : PutVoxel.o
+
+# target to build an object file
+PutVoxel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o
+.PHONY : PutVoxel.cpp.o
+
+PutVoxel.i: PutVoxel.cpp.i
+.PHONY : PutVoxel.i
+
+# target to preprocess a source file
+PutVoxel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.i
+.PHONY : PutVoxel.cpp.i
+
+PutVoxel.s: PutVoxel.cpp.s
+.PHONY : PutVoxel.s
+
+# target to generate assembly for a file
+PutVoxel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.s
+.PHONY : PutVoxel.cpp.s
+
+Sculptor.o: Sculptor.cpp.o
+.PHONY : Sculptor.o
+
+# target to build an object file
+Sculptor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o
+.PHONY : Sculptor.cpp.o
+
+Sculptor.i: Sculptor.cpp.i
+.PHONY : Sculptor.i
+
+# target to preprocess a source file
+Sculptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.i
+.PHONY : Sculptor.cpp.i
+
+Sculptor.s: Sculptor.cpp.s
+.PHONY : Sculptor.s
+
+# target to generate assembly for a file
+Sculptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.s
+.PHONY : Sculptor.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -211,6 +283,15 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... Escultor3d-Parte2"
+	@echo "... FiguraGeometrica.o"
+	@echo "... FiguraGeometrica.i"
+	@echo "... FiguraGeometrica.s"
+	@echo "... PutVoxel.o"
+	@echo "... PutVoxel.i"
+	@echo "... PutVoxel.s"
+	@echo "... Sculptor.o"
+	@echo "... Sculptor.i"
+	@echo "... Sculptor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

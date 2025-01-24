@@ -81,12 +81,12 @@ clean: CMakeFiles/Escultor3d-Parte2.dir/clean
 CMakeFiles/Escultor3d-Parte2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Escultor3d-Parte2.dir/build.make CMakeFiles/Escultor3d-Parte2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles --progress-num=1,2 "Built target Escultor3d-Parte2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Escultor3d-Parte2"
 .PHONY : CMakeFiles/Escultor3d-Parte2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Escultor3d-Parte2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Escultor3d-Parte2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/Escultor3d-Parte2.dir/rule

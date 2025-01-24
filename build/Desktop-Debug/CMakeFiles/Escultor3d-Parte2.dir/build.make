@@ -83,17 +83,65 @@ CMakeFiles/Escultor3d-Parte2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Escultor3d-Parte2.dir/main.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/main.cpp -o CMakeFiles/Escultor3d-Parte2.dir/main.cpp.s
 
+CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o: CMakeFiles/Escultor3d-Parte2.dir/flags.make
+CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o: /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/FiguraGeometrica.cpp
+CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o: CMakeFiles/Escultor3d-Parte2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o -MF CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o.d -o CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o -c /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/FiguraGeometrica.cpp
+
+CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/FiguraGeometrica.cpp > CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.i
+
+CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/FiguraGeometrica.cpp -o CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.s
+
+CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o: CMakeFiles/Escultor3d-Parte2.dir/flags.make
+CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o: /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/PutVoxel.cpp
+CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o: CMakeFiles/Escultor3d-Parte2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o -MF CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o.d -o CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o -c /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/PutVoxel.cpp
+
+CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/PutVoxel.cpp > CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.i
+
+CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/PutVoxel.cpp -o CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.s
+
+CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o: CMakeFiles/Escultor3d-Parte2.dir/flags.make
+CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o: /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/Sculptor.cpp
+CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o: CMakeFiles/Escultor3d-Parte2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o -MF CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o.d -o CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o -c /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/Sculptor.cpp
+
+CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/Sculptor.cpp > CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.i
+
+CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/Sculptor.cpp -o CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.s
+
 # Object files for target Escultor3d-Parte2
 Escultor3d__Parte2_OBJECTS = \
-"CMakeFiles/Escultor3d-Parte2.dir/main.cpp.o"
+"CMakeFiles/Escultor3d-Parte2.dir/main.cpp.o" \
+"CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o" \
+"CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o" \
+"CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o"
 
 # External object files for target Escultor3d-Parte2
 Escultor3d__Parte2_EXTERNAL_OBJECTS =
 
 Escultor3d-Parte2: CMakeFiles/Escultor3d-Parte2.dir/main.cpp.o
+Escultor3d-Parte2: CMakeFiles/Escultor3d-Parte2.dir/FiguraGeometrica.cpp.o
+Escultor3d-Parte2: CMakeFiles/Escultor3d-Parte2.dir/PutVoxel.cpp.o
+Escultor3d-Parte2: CMakeFiles/Escultor3d-Parte2.dir/Sculptor.cpp.o
 Escultor3d-Parte2: CMakeFiles/Escultor3d-Parte2.dir/build.make
 Escultor3d-Parte2: CMakeFiles/Escultor3d-Parte2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Escultor3d-Parte2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Escultor3d-Parte2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Escultor3d-Parte2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d6a56353d06f0a6c3a86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Escultor3d-Parte2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Escultor3d-Parte2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Escultor3d-Parte2-Debug-0e77f984543e0855154a.json",
+					"name" : "Escultor3d-Parte2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2/build/Desktop-Debug",
+		"source" : "/home/jmo_br/Documentos/Codigos/UFRN/Escultor3d-Parte2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
