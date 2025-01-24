@@ -1,0 +1,42 @@
+# Ignorar arquivos e pastas de build
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Ignorar arquivos de configurações do QtCreator
+*.pro.user
+*.pro.user.*
+
+# Ignorar arquivos de configuração do sistema
+*.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar diretórios temporários
+*.tmp
+*.bak
+*.swp
+
+# Ignorar arquivos gerados automaticamente de documentação
+*.qch
+*.qhp
+
+# Ignorar dependências de pacotes e caches
+*.dep
+*.d
+
+# Ignorar arquivos de cache do Qt Creator
+.qtc
+
+# Ignorar arquivos de configuração de editor
+.vscode/
+.idea/
+
+atualizar_data.sh
