@@ -14,7 +14,8 @@ add_executable(Escultor3d-Parte2 main.cpp
     Sculptor.cpp
     README.md
     atualizar_data.sh
-    .gitignore)
+    .gitignore
+    PutVoxel.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS Escultor3d-Parte2
