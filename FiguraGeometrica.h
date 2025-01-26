@@ -2,7 +2,7 @@
 #define FIGURAGEOMETRICA_H
 
 class FiguraGeometrica {
-protected:
+protected: // usamos protected para podermos herdar as variaveis  em uma classe derivada.
     float r, g, b, a;
 public:
     FiguraGeometrica();
