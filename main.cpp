@@ -14,6 +14,17 @@
 #include <iostream>
 
 int main(){
-    cout << "Testando 1 2 3!" << endl;  
+    FiguraGeometrica *pfig;
+
+    std::vector <FiguraGeometrica*> figuras;
+
+    std::ifstream fin;
+    fin.open("figura.txt");
+    if(!fin.is_open()){
+        exit(0);
+    }
+
+    std::string s;
+
     return 0;
 }
