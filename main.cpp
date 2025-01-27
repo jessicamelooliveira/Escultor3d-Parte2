@@ -14,12 +14,13 @@
 #include <iostream>
 
 int main(){
+    Sculptor *t;
     FiguraGeometrica *pfig;
 
     std::vector <FiguraGeometrica*> figuras;
+    std::ifstream fin;
 
     // Verificar se o arquivo esta aberto corretamente
-    std::ifstream fin;
     fin.open("figura.txt");
     if(!fin.is_open()){
         exit(0);
@@ -30,7 +31,12 @@ int main(){
     while(fin.good()){
         fin >> s;
         if(fin.good()){
-            if(s.compare("putbox") == 0){
+            if(s.compare("dim") == 0){
+                int dimX, dimY, dimZ;
+                fin >> dimX >> dimY >> dimZ;
+                t = new Sculptor(dimX, dimY, dimZ);
+            }
+            else if(s.compare("putbox") == 0){
                 int x0, x1, y0, y1, z0, z1;
                 float r, g, b, a;
                 fin >> x0 >> x1 >> y0 >> y1 >> z0 >> z1 >> r >> g >> b >> a;
@@ -93,5 +99,6 @@ int main(){
         delete figuras[i];
     }
 
+    t->writeOFF("figura.txt");
     return 0;
 }
