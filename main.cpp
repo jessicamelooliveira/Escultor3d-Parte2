@@ -99,7 +99,7 @@ int main(){
         delete figuras[i];
     }
 
-    t->writeOFF("figura.txt");
+    t->writeOFF("figura.off");
     fin.close();
     return 0;
 }
