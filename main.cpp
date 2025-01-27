@@ -70,6 +70,17 @@ int main(){
                 figuras.push_back(
                     new CutSphere(xcenter, ycenter, zcenter, radius));
             }
+            else if(s.compare("cutbox") == 0){
+                int x0, x1, y0, y1, z0 ,z1;
+                fin >> x0 >> x1 >> y0 >> y1 >> z0 >> z1;
+                figuras.push_back(
+                    new CutBox(x0, x1, y0, y1, z0, z1));
+            }
+            else if(s.compare("cutvoxel") == 0){
+                int x, y, z;
+                fin >> x >> y >> z;
+                figuras.push_back(
+                    new CutVoxel(x, y, z));          }
         }
     }
 
