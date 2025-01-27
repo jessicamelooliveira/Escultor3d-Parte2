@@ -58,6 +58,18 @@ int main(){
                 figuras.push_back(
                     new PutVoxel(x, y, z, r, g, b, a));
             }
+            else if(s.compare("cutellipsoid") == 0){
+                int xcenter, ycenter, zcenter, rx, ry, rz;
+                fin >> xcenter >> ycenter >> zcenter >> rx >> ry >> rz;
+                figuras.push_back(
+                    new CutEllipsoid(xcenter, ycenter, zcenter, rx, ry, rz));
+            }
+            else if(s.compare("cutsphere") == 0){
+                int xcenter, ycenter, zcenter, radius;
+                fin >> xcenter >> ycenter >> zcenter >> radius;
+                figuras.push_back(
+                    new CutSphere(xcenter, ycenter, zcenter, radius));
+            }
         }
     }
 
