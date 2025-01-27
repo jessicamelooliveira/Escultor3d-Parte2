@@ -8,7 +8,7 @@ CutSphere::CutSphere(int xcenter, int ycenter, int zcenter, int radius)
   this->radius=radius;
 }
 
-void CutSphere::draw(Scultor &t)
+void CutSphere::draw(Sculptor &t)
 {
     for(int i = -radius; i<=radius; i++){
         for(int j = -radius; j<=radius; j++){
