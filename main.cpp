@@ -25,6 +25,8 @@ int main(){
         exit(0);
     }
 
+    std::string s;
+
     while(fin.good()){
         fin >> s;
         if(fin.good()){
@@ -51,8 +53,6 @@ int main(){
             }
         }
     }
-
-    std::string s;
 
     return 0;
 }
