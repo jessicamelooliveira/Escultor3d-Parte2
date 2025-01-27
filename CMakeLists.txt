@@ -13,8 +13,8 @@ add_executable(Escultor3d-Parte2 main.cpp
     CutEllipsoid.h
     CutSphere.cpp
     CutSphere.h
-    cutVoxel.cpp
-    cutVoxel.h
+    CutVoxel.cpp
+    CutVoxel.h
     FiguraGeometrica.cpp
     FiguraGeometrica.h
     PutBox.cpp

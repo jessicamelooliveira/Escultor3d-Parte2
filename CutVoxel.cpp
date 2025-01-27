@@ -1,4 +1,4 @@
-#include "cutVoxel.h"
+#include "CutVoxel.h"
 
 CutVoxel::Cutvoxel(int x, int y, int z){
     this->x=x; 
