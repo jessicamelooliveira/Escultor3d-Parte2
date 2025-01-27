@@ -16,7 +16,7 @@ PutEllipsoid::PutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry
     this->a=a;
 }
 
-void PutEllipsoid::draw(Scultor &t)
+void PutEllipsoid::draw(Sculptor &t)
 {
     float newx, newy, newz;
     t.setColor(r,g,b,a);
