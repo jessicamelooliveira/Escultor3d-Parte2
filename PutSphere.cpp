@@ -12,7 +12,7 @@ this->b=b;
 this->a=a;
 }
 
-void PutSphere::draw(Scultor &t)
+void PutSphere::draw(Sculptor &t)
 {
     t.setColor(r,g,b,a);
 
