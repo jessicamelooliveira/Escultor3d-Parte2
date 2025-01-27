@@ -8,7 +8,7 @@ class CutBox : public FiguraGeometrica {
 public:
     CutBox(int x0, int x1, int y0, int y1, int z0, int z1);
     ~CutBox(){};
-    void draw(Scultor &t);
+    void draw(Sculptor &t);
 };
 
 #endif // CUTBOX_H
