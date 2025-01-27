@@ -85,8 +85,8 @@ int main(){
         }
     }
 
-     for(int i=0; i<figuras.size(); i++){
-        figuras[i]->draw();
+    for(int i=0; i<figuras.size(); i++){
+        figuras[i]->draw(pfig);
     }
 
     for(int i=0; i<figuras.size(); i++){
