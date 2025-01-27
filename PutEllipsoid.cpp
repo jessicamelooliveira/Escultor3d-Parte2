@@ -1,4 +1,4 @@
-#include "putsphere.h"
+#include "PutSphere.h"
 
 PutSphere::PutSphere(int xcenter, int ycenter, int zcenter, int radius, float r, float g, float b, float a)
 {
