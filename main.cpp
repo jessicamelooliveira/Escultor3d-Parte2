@@ -92,7 +92,7 @@ int main(){
     }
 
     for(int i=0; i<figuras.size(); i++){
-        figuras[i]->draw(*pfig);
+        figuras[i]->draw(*t);
     }
 
     for(int i=0; i<figuras.size(); i++){
