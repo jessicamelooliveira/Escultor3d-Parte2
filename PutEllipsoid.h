@@ -1,7 +1,7 @@
 #ifndef PUTELLIPSOID_H
 #define PUTELLIPSOID_H
 
-#include "figurageometrica.h"
+#include "FiguraGeometrica.h"
 
 class PutEllipsoid : public FiguraGeometrica {
     int xcenter, ycenter, zcenter, rx, ry, rz;
