@@ -44,12 +44,19 @@ int main(){
                 figuras.push_back(
                     new PutEllipsoid(xcenter, ycenter, zcenter, rx, ry, rz, r, g, b, a));
             }
-            else if(s.compare("circulo") == 0){
-                float xc, yc, raio;
-                fin >> xc >> yc >> raio;
+            else if(s.compare("putsphere") == 0){
+                int xcenter, ycenter, zcenter, radius;
+                float r, g, b, a;
+                fin >> xcenter >> ycenter >> zcenter >> radius >> r >> g >> b >> a;
                 figuras.push_back(
-                    new Circulo(xc,yc,raio));
-
+                    new PutSphere(xcenter, ycenter, zcenter, radius, r, g, b, a));
+            }
+            else if(s.compare("putvoxel") == 0){
+                int x, y, z;
+                float r, g, b, a;
+                fin >> x >> y >> z >> r >> g >> b >> a;
+                figuras.push_back(
+                    new PutVoxel(x, y, z, r, g, b, a));
             }
         }
     }
