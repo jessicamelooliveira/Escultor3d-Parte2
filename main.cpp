@@ -58,6 +58,12 @@ int main(){
                 figuras.push_back(
                     new PutVoxel(x, y, z, r, g, b, a));
             }
+            else if(s.compare("cutbox") == 0){
+                int x0, x1, y0, y1, z0 ,z1;
+                fin >> x0 >> x1 >> y0 >> y1 >> z0 >> z1;
+                figuras.push_back(
+                    new CutBox(x0, x1, y0, y1, z0, z1));
+            }
             else if(s.compare("cutellipsoid") == 0){
                 int xcenter, ycenter, zcenter, rx, ry, rz;
                 fin >> xcenter >> ycenter >> zcenter >> rx >> ry >> rz;
@@ -70,12 +76,6 @@ int main(){
                 figuras.push_back(
                     new CutSphere(xcenter, ycenter, zcenter, radius));
             }
-            else if(s.compare("cutbox") == 0){
-                int x0, x1, y0, y1, z0 ,z1;
-                fin >> x0 >> x1 >> y0 >> y1 >> z0 >> z1;
-                figuras.push_back(
-                    new CutBox(x0, x1, y0, y1, z0, z1));
-            }
             else if(s.compare("cutvoxel") == 0){
                 int x, y, z;
                 fin >> x >> y >> z;
@@ -85,7 +85,6 @@ int main(){
         }
     }
 
-
      for(int i=0; i<figuras.size(); i++){
         figuras[i]->draw();
     }
@@ -93,7 +92,6 @@ int main(){
     for(int i=0; i<figuras.size(); i++){
         delete figuras[i];
     }
-
 
     return 0;
 }
