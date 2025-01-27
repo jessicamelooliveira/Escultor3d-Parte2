@@ -80,9 +80,20 @@ int main(){
                 int x, y, z;
                 fin >> x >> y >> z;
                 figuras.push_back(
-                    new CutVoxel(x, y, z));          }
+                    new CutVoxel(x, y, z));
+            }
         }
     }
+
+
+     for(int i=0; i<figuras.size(); i++){
+        figuras[i]->draw();
+    }
+
+    for(int i=0; i<figuras.size(); i++){
+        delete figuras[i];
+    }
+
 
     return 0;
 }
