@@ -37,11 +37,12 @@ int main(){
                 figuras.push_back(
                     new PutBox(x0, x1, y0, y1, z0, z1, r, g, b, a));
             }
-            else if(s.compare("reta") == 0){
-                float x1, y1, x2, y2;
-                fin >> x1 >> y1 >> x2 >> y2;
+            else if(s.compare("putellipsoid") == 0){
+                int xcenter, ycenter, zcenter, rx, ry, rz;
+                float r, g, b, a;
+                fin >> xcenter >> ycenter >> zcenter >> rx >> ry >> rz >> r >> g >> b >> a;
                 figuras.push_back(
-                    new Reta(x1,y1,x2,y2));
+                    new PutEllipsoid(xcenter, ycenter, zcenter, rx, ry, rz, r, g, b, a));
             }
             else if(s.compare("circulo") == 0){
                 float xc, yc, raio;
