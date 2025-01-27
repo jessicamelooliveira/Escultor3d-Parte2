@@ -10,7 +10,7 @@ CutBox::CutBox(int x0, int x1, int y0, int y1, int z0, int z1)
     this->z1=z1;
 }
 
-void CutBox::draw(Scultor &t) // Como no "cut" a intenção é passar a borracha no desenho, não há necessidade de usar rgba
+void CutBox::draw(Sculptor &t) 
 {
     for(int x = x0; x<x1; x++){
        for (int y = y0; y<y1; y++){
