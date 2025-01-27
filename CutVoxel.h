@@ -3,8 +3,7 @@
 
 #include "figurageometrica.h"
 
-class CutVoxel:public FiguraGeometrica
-{
+class CutVoxel:public FiguraGeometrica {
     int x; int y; int z;
 public:
     CutVoxel(int x, int y, int z);

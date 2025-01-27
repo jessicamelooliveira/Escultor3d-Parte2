@@ -3,8 +3,8 @@
 
 #include "figurageometrica.h"
 
-class CutSphere : public FiguraGeometrica
-{
+class CutSphere : public FiguraGeometrica {
+
     int xcenter, ycenter, zcenter, radius;
 public:
     CutSphere(int xcenter, int ycenter, int zcenter, int radius);
