@@ -2,7 +2,6 @@
 #define PUTSPHERE_H
 
 #include "FiguraGeometrica.h"
-#include "Sculptor.h"
 
 class PutSphere : public FiguraGeometrica {
     int xcenter, ycenter, zcenter, radius;

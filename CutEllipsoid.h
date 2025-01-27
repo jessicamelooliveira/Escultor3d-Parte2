@@ -2,7 +2,6 @@
 #define CUTELLIPSOID_H
 
 #include "FiguraGeometrica.h"
-#include "Sculptor.h"
 
 class CutEllipsoid : public FiguraGeometrica {
     int xcenter_, ycenter_, zcenter_, rx_, ry_, rz_;

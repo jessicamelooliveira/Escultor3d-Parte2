@@ -1,5 +1,6 @@
 #ifndef FIGURAGEOMETRICA_H
 #define FIGURAGEOMETRICA_H
+#include "Sculptor.h"
 
 class FiguraGeometrica {
 protected: // usamos protected para podermos herdar as variaveis  em uma classe derivada.

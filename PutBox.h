@@ -2,7 +2,6 @@
 #define PUTBOX_H
 
 #include "FiguraGeometrica.h"
-#include "Sculptor.h"
 
 class PutBox:public FiguraGeometrica {
     int x0, x1, y0, y1, z0, z1;

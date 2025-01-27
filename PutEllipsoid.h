@@ -2,7 +2,6 @@
 #define PUTELLIPSOID_H
 
 #include "FiguraGeometrica.h"
-#include "Sculptor.h"
 
 class PutEllipsoid : public FiguraGeometrica {
     int xcenter, ycenter, zcenter, rx, ry, rz;
