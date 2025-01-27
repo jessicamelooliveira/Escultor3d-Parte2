@@ -30,19 +30,18 @@ int main(){
     while(fin.good()){
         fin >> s;
         if(fin.good()){
-            //     std::cout << "leu: " << s << std::endl;
-            if(s.compare("retangulo") == 0){
-                float x1, y1, largura, altura;
-                fin >> x1 >> y1 >> largura >> altura;
+            if(s.compare("putbox") == 0){
+                int x0, x1, y0, y1, z0, z1;
+                float r, g, b, a;
+                fin >> x0 >> x1 >> y0 >> y1 >> z0 >> z1 >> r >> g >> b >> a;
                 figuras.push_back(
-                    new Retangulo(x1,y1,largura,altura));
+                    new PutBox(x0, x1, y0, y1, z0, z1, r, g, b, a));
             }
             else if(s.compare("reta") == 0){
                 float x1, y1, x2, y2;
                 fin >> x1 >> y1 >> x2 >> y2;
                 figuras.push_back(
                     new Reta(x1,y1,x2,y2));
-
             }
             else if(s.compare("circulo") == 0){
                 float xc, yc, raio;
