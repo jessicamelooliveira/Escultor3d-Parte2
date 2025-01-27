@@ -14,19 +14,6 @@ PutEllipsoid::PutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry
 }
 
 void PutEllipsoid::draw(Sculptor &t){
-    float newx, newy, newz;
     t.setColor(r,g,b,a);
-
-    for (int x = 0; x <t.getx(); x++){
-        for (int y = 0; y < t.gety(); y++){
-            for (int z = 0; z <t.getz(); z++){
-                newx = ((float)(x-xcenter)*(float)(x-xcenter))/(rx * rx);
-                newy = ((float)(y-ycenter)*(float)(y-ycenter))/(ry * ry);
-                newz = ((float)(z-zcenter)*(float)(z-zcenter))/(rz * rz);
-
-                if ((newx + newy + newz) < 1)
-                    t.putVoxel(x,y,z);
-            }
-        }
-    }
+    t.putEllipsoid(xcenter, ycenter, zcenter, rx, ry, rz);
 }
