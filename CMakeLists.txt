@@ -29,6 +29,7 @@ add_executable(Escultor3d-Parte2 main.cpp
     Sculptor.cpp
     Sculptor.h
     .gitignore
+    figura.txt
 )
 
 include(GNUInstallDirs)

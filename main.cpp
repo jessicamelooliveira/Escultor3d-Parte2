@@ -100,5 +100,6 @@ int main(){
     }
 
     t->writeOFF("figura.txt");
+    fin.close();
     return 0;
 }
