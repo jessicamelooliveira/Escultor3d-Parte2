@@ -1,29 +1,37 @@
-#include "PutSphere.h"
+#include "PutEllipsoid.h"
+#include "Sculptor.h"
+#include "interpretador.h"
 
-PutSphere::PutSphere(int xcenter, int ycenter, int zcenter, int radius, float r, float g, float b, float a)
+PutEllipsoid::PutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz, float r, float g, float b, float a)
 {
-this->xcenter=xcenter; 
-this->ycenter=ycenter; 
-this->zcenter=zcenter; 
-this->radius=radius;
-this->r=r; 
-this->g=g; 
-this->b=b; 
-this->a=a;
+    this->xcenter=xcenter; 
+    this->ycenter=ycenter; 
+    this->zcenter=zcenter; 
+    this->rx=rx; 
+    this->ry=ry; 
+    this->rz=rz;
+    this->r=r; 
+    this->g=g; 
+    this->b=b; 
+    this->a=a;
 }
 
-void PutSphere::draw(Scultor &t)
+void PutEllipsoid::draw(Scultor &t)
 {
+    float newx, newy, newz;
     t.setColor(r,g,b,a);
 
-    for(int i = -radius; i<=radius; i++){
-        for(int j = -radius; j<=radius; j++){
-            for(int k = -radius; k<=radius; k++){
+     for (int x = 0; x <t.getx(); x++){
+         for (int y = 0; y < t.gety(); y++){
+             for (int z = 0; z <t.getz(); z++){
+             newx = ((float)(x-xcenter)*(float)(x-xcenter))/(rx * rx);
+             newy = ((float)(y-ycenter)*(float)(y-ycenter))/(ry * ry);
+             newz = ((float)(z-zcenter)*(float)(z-zcenter))/(rz * rz);
 
-              if ((i*i+j*j+k*k) < radius*radius){
-                t.putVoxel(i+xcenter,j+ycenter,k+zcenter);
-              }
-            }
-        }
-    }
-}
+             if ((newx + newy + newz) < 1){
+                 t.putVoxel(x,y,z);
+             }
+             }
+         }
+     }
+ }
