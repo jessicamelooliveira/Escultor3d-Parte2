@@ -1,4 +1,4 @@
-#include "cutellipsoid.h"
+#include "CutEllipsoid.h"
 
 CutEllipsoid::CutEllipsoid(int xcenter_, int ycenter_, int zcenter_, int rx_, int ry_, int rz_)
 {
