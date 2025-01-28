@@ -20,7 +20,7 @@ int main(){
     std::ifstream fin;
 
     // Verificar se o arquivo esta aberto corretamente
-    fin.open("figura.txt");
+    fin.open("Kirby.txt");
     if(!fin.is_open()){
         exit(0);
     }
@@ -99,7 +99,7 @@ int main(){
         delete figuras[i];
     }
 
-    t->writeOFF("figura.off");
+    t->writeOFF("Kirby.off");
     fin.close();
     return 0;
 }
