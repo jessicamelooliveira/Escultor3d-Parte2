@@ -12,12 +12,11 @@
 #include <fstream>
 #include <string>
 #include <iostream>
+#include <memory>
 
 int main(){
-    Sculptor *t;
-    FiguraGeometrica *pfig;
-
     std::vector <FiguraGeometrica*> figuras;
+    std::unique_ptr <Sculptor> t = nullptr;
     std::ifstream fin;
 
     // Verificar se o arquivo esta aberto corretamente
