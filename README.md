@@ -2,7 +2,7 @@
 Projeto da 2ª unidade da disciplina de Algoritmos e Lógica de Programação (DCA0803).
 
 >:computer: Por: [Jéssica de Melo Oliveira](https://github.com/jessicamelooliveira) e [Álvaro Flor Duarte](https://github.com/snowchild21)\
->:hourglass: Status: Em construção\
+>:hourglass: Status: Finalizado\
 >:date: Última modificação: 28 de janeiro de 2025, 10:20
 
 Esse projeto tem como objetivo **criar uma ferramenta em C++ para gerar imagens em 3d** (extensão: .off) formada por *voxels*, tal como no jogo Minecraft. Pode-se visualizar o arquivo criado através desse site: [3dviewer.net](https://3dviewer.net/)
