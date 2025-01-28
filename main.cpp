@@ -33,7 +33,8 @@ int main(){
             if(s.compare("dim") == 0){
                 int dimX, dimY, dimZ;
                 fin >> dimX >> dimY >> dimZ;
-                t = new Sculptor(dimX, dimY, dimZ);
+                t = std::make_unique<Sculptor>(dimX, dimY, dimZ);
+
             }
             else if(s.compare("putbox") == 0){
                 int x0, x1, y0, y1, z0, z1;
